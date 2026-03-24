@@ -30,7 +30,7 @@ export default function App() {
   const [commentary,  setCommentary]  = useState('Select your batting style and play!');
   const [history,     setHistory]     = useState([]);   // ← NEW
 
-  // ── Custom Hooks ──────────────────────────────────────────
+  // ── Custom Hooks ─────────────────────────────────────────
   const { sliderPos, startSlider, stopSlider }  = useSlider();
   const { ballPos,   animateBall, resetBall }    = useBallAnimation();
   const { batSwing,  batPhase,    triggerSwing } = useBatAnimation();
