@@ -20,7 +20,7 @@ import BallHistory    from './components/BallHistory';
 
 export default function App() {
 
-  // ── Game State ───────────────────────────────────────────
+  // ── Game State ──────────────────────────────────────────
   const [runs,        setRuns]        = useState(0);
   const [wickets,     setWickets]     = useState(0);
   const [ballsBowled, setBallsBowled] = useState(0);
