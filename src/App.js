@@ -35,7 +35,7 @@ export default function App() {
   const { ballPos,   animateBall, resetBall }    = useBallAnimation();
   const { batSwing,  batPhase,    triggerSwing } = useBatAnimation();
 
-  // ── Derived values ─────────────────────────────────────────
+  // ── Derived values ────────────────────────────────────────
   const segments  = batting_styles[bStyle].segments;
   const ballsLeft = total_balls - ballsBowled;
   const over      = Math.floor(ballsBowled / 6);
